@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    box-sizing: border-box;
+}
+.background{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.background::before {
+    content: '';
+    background-image: url(hjjj.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    
+}
+
+header{
+    background: url(hjjj.png)fixed center;
+    background-image: url(hjjj.png) ;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
